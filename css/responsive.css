@@ -1,0 +1,48 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) { 
+
+    .contact-left {
+	margin-left: 150px;
+}
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.contact-left {
+	margin-left: 150px;
+}
+    .me-img img{
+        width: 100%;
+    }
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .contact-left{
+        text-align: center;
+        margin-left: 0;
+    }
+    .menu ul li a {
+	padding: 10px 12px;
+
+}
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.contact-form {
+	width: 260px;
+	margin: 0 auto;
+}
+
+}
